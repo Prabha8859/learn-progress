@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+// import dotenv;
 
 const connectDB = async () => {
   const uri = process.env.MONGO_URI || "mongodb+srv://prabha8859_db_user:RZAruX3KMmKVaQ5d@cluster0.ox4iumc.mongodb.net/";
